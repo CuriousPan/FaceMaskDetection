@@ -12,8 +12,8 @@ This is a convolutional neural network which identifies whether a person has a f
 
 ## Setup
 
-*. Install any version of Python 3.7
-*. Install all required libraries
+* Install any version of Python 3.7
+* Install all required libraries
 '''
 pip install tensorflow
 pip install numpy
