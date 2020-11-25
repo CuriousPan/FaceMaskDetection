@@ -29,6 +29,8 @@ pip install sklearn
 
 ***Note 2:*** make sure all versions of listed libraries are compatible with each other.
 
+* [Download](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) Haar Cascade Classified for identifying faces on images
+
 ## Getting started
 
 ***LoadingData.py***
@@ -209,7 +211,7 @@ face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 cap = cv2.VideoCapture(0) # 0 for turning on the WebCam
 ```
 
-After that we start a while loop. In the first part of the loop the image from the WebCam is procceded (turned to gray, resized and reshaped). Actually, it happens on each frame. Then the prediction is made and depending on its results we have the output: green or red box on the face with correscponding label and accuracy of the prediction.
+After that we start a while loop. In the first part of the loop the image from the WebCam is procceded through cascade classifier in order to find a face in in and then turned to gray, resized and reshaped. Actually, it happens on each frame. Then the prediction is made and depending on its results we have the output: green or red box on the face with correscponding label and accuracy of the prediction.
 
 ```
 while True:
