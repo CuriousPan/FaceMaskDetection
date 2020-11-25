@@ -244,6 +244,9 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
+Press "Q" to end the program
+
 Here are the exapmles of predictions
 
-![](Images/maskIsOn.png){:width=50% }  ![](Images/noMask.png){:width=50% }
+![](Images/maskIsOn.png)  ![](Images/noMask.png)
+
