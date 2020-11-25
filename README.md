@@ -29,6 +29,16 @@ pip install sklearn
 
 ## Getting started
 
+Imports
+```python
+import numpy as np
+import os
+import cv2
+import pickle
+from sklearn.utils import shuffle
+import keras
+```
+
 Firstly, download image dataset. I used [image dataset](https://www.kaggle.com/omkargurav/face-mask-dataset) from [Kaggle.com](https://www.kaggle.com/).
 
 Then prepare it in readable for CNN format. Here we use OpenCV, Numpy and sklearn libraries. 
