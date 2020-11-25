@@ -163,6 +163,6 @@ Here is the result of training.
 
 ***Note:*** It may take you several tries to "catch" the decent results for validation accuracy and validation loss.
 
-[accuracy_image](C:\Users\CuriousPan\Desktop\accuracy.png)
+![accuracy_image](C:\Users\CuriousPan\Desktop\accuracy.png)
 
 
