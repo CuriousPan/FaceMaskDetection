@@ -173,3 +173,42 @@ Then we save the model.
 os.chdir("C:\PythonStuff\MasksProject\model")
 model.save("model.h5")
 ```
+
+***Cascade.py***
+
+In this file we will turn on the WebCam and make predictions.
+
+Imports and labels for results.
+
+```
+import cv2
+import numpy as np
+import os
+import tensorflow as tf
+import keras
+import pickle
+
+labels = ["with_mask", "without_mask"]
+```
+
+Then load the model.
+
+```
+#path to your model
+os.chdir("C:\PythonStuff\MasksProject\model")
+model = keras.models.load_model("model.h5")
+```
+
+Load the haarcascade and turn on the WebCam.
+
+```
+#path to haar cascade
+os.chdir("C:\PythonStuff\MasksProject")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+
+cap = cv2.VideoCapture(0) # 0 for turning on the WebCam
+```
+
+After that we start a while loop. In the first part of the loop, the image from the WebCam is procceded (turned to gray, resized and reshaped). Actually it happens on each frame. Then the prediction is made and depending on its results we have the output: green or red box on the face with correscponding label and accuracy of the prediction.
+
+
