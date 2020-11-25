@@ -4,9 +4,13 @@ This is a convolutional neural network which identifies whether a person has a f
 
 ## Used technologies
 
-1. Python 3.7.9
+1. Any version of Python3.7.x (Python 3.8 is not supported by Tensorflow yet)
 2. Tensorfow and Keras 2.3.1
 3. OpenCV
-4. Numpy
-5. Pi
+4. Pickle
+5. Numpy
+
+## Installation 
+
+
 
