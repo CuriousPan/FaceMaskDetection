@@ -44,5 +44,6 @@ model = Sequential([
 model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
 model.fit(train_x, train_y, batch_size=32, epochs=10, validation_split=0.1)
 
+#path to folder to save the model
 os.chdir("C:\PythonStuff\MasksProject\model")
 model.save("model.h5")

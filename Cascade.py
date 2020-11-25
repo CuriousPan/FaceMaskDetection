@@ -15,7 +15,7 @@ model = keras.models.load_model("model.h5")
 os.chdir("C:\PythonStuff\MasksProject")
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) # 0 for turning on the WebCam
 
 while True:
     
