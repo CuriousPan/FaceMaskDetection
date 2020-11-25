@@ -1,6 +1,6 @@
-##Face Mask Detection Project
+# Face Mask Detection Project
 
 Project description
 
-##Getting started
+## Getting started
 
