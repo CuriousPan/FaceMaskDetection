@@ -246,4 +246,4 @@ cv2.destroyAllWindows()
 
 Here are the exapmles of predictions
 
-![](Images/maskIsOn.png){ width=50% }  ![](Images/noMask.png){ width=50% }
+![](Images/maskIsOn.png){:width=50% }  ![](Images/noMask.png){:width=50% }
