@@ -25,7 +25,7 @@ while True:
     for (x, y, w, h) in faces:        
         toTest = gray[y:y+h, x:x+w]
         toTest = cv2.resize(toTest, (100, 100))
-        #cv2.imshow("test2", toTest) shows the cropped image which is sent to cnn
+        #cv2.imshow("test2", toTest) shows the cropped image which is sent to cnn (optional)
         toTest = toTest.reshape(1, 100, 100, 1)
         
         prediction = model.predict(toTest, verbose=0)
