@@ -25,6 +25,8 @@ pip install sklearn
 
 ***Note 1:*** keras is included in Tensorflow, however there can be some problems. In this case install keras separetly.
 
+```pip install keras```
+
 ***Note 2:*** make sure all versions of listed libraries are compatible with each other.
 
 ## Getting started
@@ -163,6 +165,6 @@ Here is the result of training.
 
 ***Note:*** It may take you several tries to "catch" the decent results for validation accuracy and validation loss.
 
-![accuracy_image](C:\Users\CuriousPan\Desktop\accuracy.png)![accuracy_image]
+![accuracy_image](C:\Users\CuriousPan\Desktop\accuracy.png)
 
 
