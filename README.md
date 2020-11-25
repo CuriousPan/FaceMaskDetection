@@ -25,7 +25,9 @@ pip install opencv-python
 
 ***Note 2:*** make sure all versions of listed libraries are compatible with each other.
 
+## Getting started
 
+Firstly, download image dataset. I used [image dataset](https://www.kaggle.com/omkargurav/face-mask-dataset) from [Kaggle.com](https://www.kaggle.com/) 
  
 
 
