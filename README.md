@@ -74,6 +74,21 @@ train_x = np.array(train_x, dtype="uint16").reshape(-1, IMG_SIZE, IMG_SIZE, 1)
 train_y = keras.utils.to_categorical(train_y)
 ```
  
+After that save the data in the pickle format. It will be used later when we will unpack the data and fit it in the CNN.
+```python
+if not os.path.exists("savedData"):
+    os.makedirs("savedData")
 
+#path where data will be saved in pickle format
+os.chdir("C:\PythonStuff\MasksProject\savedData")
+
+pickle_out_x = open("train_x.pickle", "wb")
+pickle.dump(train_x, pickle_out_x)    
+pickle_out_x.close()
+
+pickle_out_y = open("train_y.pickle", "wb")
+pickle.dump(train_y, pickle_out_y)
+pickle_out_y.close()  
+```
 
 
