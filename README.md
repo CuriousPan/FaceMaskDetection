@@ -159,4 +159,9 @@ model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accur
 model.fit(train_x, train_y, batch_size=32, epochs=10, validation_split=0.1)
 ```
 
+Here is the result of training. 
+***Note:***It make take you a several tries to "catch" the decent results for validation accuracy and validation loss.
+
+![accuracy_image](C:\Users\CuriousPan\Desktop\accuracy)
+
 
