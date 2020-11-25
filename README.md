@@ -163,7 +163,7 @@ model.fit(train_x, train_y, batch_size=32, epochs=10, validation_split=0.1)
 
 Here is the result of training. 
 
-![accuracy_image](https://github.com/CuriousPan/FaceMaskDetection/commit/456fe7aa9c31b328aafcbfe63bed310e5f250588)
+![](https://github.com/CuriousPan/FaceMaskDetection/commit/456fe7aa9c31b328aafcbfe63bed310e5f250588)
 
 ***Note:*** It may take you several tries to "catch" the decent results for validation accuracy and validation loss.
 
