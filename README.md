@@ -23,7 +23,7 @@ pip install opencv-python
 pip install sklearn
 ```
 
-* [Download](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) Haar Cascade Classifier for identifying faces on images.
+* [Download](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml) Intel Haar Cascade Classifier for identifying faces on images.
 
 ***Note 1:*** keras is included in Tensorflow, however there can be some problems. In this case install keras separetly.
 
