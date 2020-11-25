@@ -167,3 +167,9 @@ Here is the result of training.
 
 ***Note:*** It may take you several tries to "catch" the decent results for validation accuracy and validation loss.
 
+Then we save the model.
+
+```python
+os.chdir("C:\PythonStuff\MasksProject\model")
+model.save("model.h5")
+```
