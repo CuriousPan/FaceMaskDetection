@@ -1,6 +1,6 @@
 # Face Mask Detection Project
 
-This is a convolutional neural network which identifies whether a person has a face mask or notin the real time using webcamera.
+This is a convolutional neural network which identifies whether a person has a face mask or not in the real time using webcamera.
 
 ## Used technologies
 
@@ -201,7 +201,7 @@ os.chdir("C:\PythonStuff\MasksProject\model")
 model = keras.models.load_model("model.h5")
 ```
 
-Load the haarcascade and turn on the WebCam.
+Load the cascade classifier and turn on the WebCam.
 
 ```
 #path to haar cascade
