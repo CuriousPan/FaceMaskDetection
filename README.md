@@ -244,4 +244,6 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-Here is the exaples of predictions
+Here are the exapmles of predictions
+
+![](Images/maskIsOn.png)  ![](Images/noMask.png)
