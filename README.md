@@ -246,4 +246,4 @@ cv2.destroyAllWindows()
 
 Here are the exapmles of predictions
 
-![](Images/maskIsOn.png=200x)  ![](Images/noMask.png=200x)
+![](Images/maskIsOn.png=200x200)  ![](Images/noMask.png=200x200)
