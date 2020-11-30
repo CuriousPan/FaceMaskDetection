@@ -122,12 +122,12 @@ train_x = pickle.load(open("train_x.pickle", "rb"))
 train_y = pickle.load(open("train_y.pickle", "rb"))
 ```
 
-Then the neural is defined.
+Then the neural network is defined.
 
 ```python
 model = Sequential([
  
-	Conv2D(filters=16, kernel_size=(3,3), activation="relu", strides=(1,1), padding="same", input_shape=train_x.shape[1:]), 
+    Conv2D(filters=16, kernel_size=(3,3), activation="relu", strides=(1,1), padding="same", input_shape=train_x.shape[1:]), 
     MaxPooling2D(pool_size=(2,2), padding="same"),   
     
     Conv2D(filters=32, kernel_size=(3,3), activation="relu", strides=(1,1), padding="same"),
@@ -211,7 +211,7 @@ face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 cap = cv2.VideoCapture(0) # 0 for turning on the WebCam
 ```
 
-After that we start a while loop. In the first part of the loop the image from the WebCam is procceded through cascade classifier in order to find a face in in and then turned to gray, resized and reshaped. Actually, it happens on each frame. Then the prediction is made and depending on its results we have the output: green or red box on the face with correscponding label and accuracy of the prediction.
+After that we start a while loop. In the first part of the loop the image from the WebCam is procceded through cascade classifier in order to find a face in in and then turned to gray, resized and reshaped. Actually, it happens on each frame. Then the prediction is made and depending on its results we have the output: green or red box on the face with corresponding label and accuracy of the prediction.
 
 ```
 while True:
