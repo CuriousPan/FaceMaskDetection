@@ -247,8 +247,3 @@ cv2.destroyAllWindows()
 ```
 
 Press "Q" to end the program
-
-Here are the exapmles of predictions
-
-![](Images/maskIsOn.png)  ![](Images/noMask.png)
-
